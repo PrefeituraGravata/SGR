@@ -1,29 +1,24 @@
 /*Só para dividir o header e o footer que vão se repetir em todas as páginas da prefeitura do restante do .css da página*/
-
 *{
     margin: 0px;
     font-family: Roboto;
 }
 
-/*Esse é o header*/
+/*Esse é o header
 header {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 header img{
+    display: flex;
     border-right: 3px solid black;
     padding: 20px 0px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-header div#title_string h1{
-    margin: 80px 0px 10px 20px;
-}
 
-nav ul#menu_pag {
+nav ul {
     list-style: none;
     border-bottom: 10px solid #fbb34d;
     display: flex;
@@ -52,6 +47,8 @@ nav a:hover{
     text-decoration: none;
     color: white;
 }
+
+*/
 /*------------------------------------------------------*/
 
 /*Esse é o footer*/

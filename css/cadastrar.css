@@ -1,55 +1,75 @@
-form legend h2{
-    margin-top: 30px;
-    margin-left:100px;
+*{
+    text-decoration: none;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html{
+    font-size: 62,5%;
+  }
+
+.img{
+    border-right: 3px solid black;
+    margin: 1.2rem;
+    display: inline-block;
 }
 
-form legend h2 span{
-    border-bottom: 5px solid orange;
+.texto{
+    padding: 1rem;
+    font-size: 2.4rem;
+    display: inline-block;
 }
 
-form div div.box_container{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+#menu{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: #6a5345;
+    padding-left: 3rem;
+    border-bottom: 0.6rem solid #fbb34d;
 }
 
-form div div.box_container span{
-    margin: 0 92%;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
+nav ul li{
+    padding: 10px 25px 10px 0px;
 }
 
-form div div.box_container span#second{
-    margin-left: 86.7%;
-    grid-column-start:1;
-    grid-column-end:2;
-    grid-row-start:2;
-    grid-row-end:3;
+#menu a{
+    font-size: 1rem;
+    color: white;
 }
 
-form div div.box_container input{
-    
+nav ul li:hover{
+    text-shadow: 0 0 10px white;
 }
 
-form div div.box_container input#num{
-    grid-column-start:2;
-    grid-column-end:3;
-    grid-row-start:1;
-    grid-row-end:2;
+nav a:hover{
+    text-decoration: none;
+    color: white;
 }
 
-form div div.box_container input#loc{
-    grid-column-start:2;
-    grid-column-end:3;
-    grid-row-start:2;
-    grid-row-end:3;
+h2{
+    padding-top: 1.5rem;
+    width: 100px;
+    margin-left: 3rem;
+    border-bottom: 0.4rem solid #fbb34d;
 }
 
-form div div.box_container input{
-    grid-column-start:1;
-    grid-column-end:3;
-    grid-row-start: 4;
-    grid-row-end:5;
+form{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.box{
+    background-color: #E2E2E2;
+    border-radius: 5%;
+    width: 600px;
+    height: 750px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
