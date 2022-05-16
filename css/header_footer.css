@@ -25,15 +25,13 @@ header div#title_string h1{
 
 nav ul#menu_pag {
     list-style: none;
-    border-bottom: 15px solid orange;
+    border-bottom: 10px solid #fbb34d;
     display: flex;
     flex-direction: row;
     background-color: #6a5345;
     color: white;
     justify-content: flex-start;
-    margin: 0px;
     height: 40px;
-    padding-bottom: 40px;
 }
 
 nav ul li {
@@ -45,12 +43,21 @@ nav ul li:hover{
     text-shadow: 0 0 10px white;
 }
 
+nav a{
+    font-size: 1.2rem;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: white;
+}
 /*------------------------------------------------------*/
 
 /*Esse é o footer*/
 
 footer{
-    border-top: 5px solid orange;
+    border-top: 5px solid #fbb34d;
     margin-top: 10px;
 }
 

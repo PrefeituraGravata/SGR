@@ -1,0 +1,23 @@
+@media (max-width: 380px){
+    header img{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 12.0rem;
+    }
+
+    #title_string{
+        text-align: center;
+    }
+
+    header h1{
+        font-size: 4.0rem;
+    }
+
+    .box{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: #E2E2E2;
+    }
+}
