@@ -9,7 +9,7 @@
 html{
     font-size: 62,5%;
   }
-
+/*-------Começo do Header---------*/
 .img{
     border-right: 3px solid black;
     margin: 1.2rem;
@@ -21,7 +21,7 @@ html{
     font-size: 2.4rem;
     display: inline-block;
 }
-
+/*-------Final do Header---------*/
 #menu{
     list-style: none;
     display: flex;
@@ -31,7 +31,7 @@ html{
     padding-left: 3rem;
     border-bottom: 0.6rem solid #fbb34d;
 }
-
+/*------Começo do Menu--------*/
 nav ul li{
     padding: 10px 25px 10px 0px;
 }
@@ -49,8 +49,8 @@ nav a:hover{
     text-decoration: none;
     color: white;
 }
-
-h2{
+/*------Final do Menu--------*/
+.sgr{
     padding-top: 1.5rem;
     width: 100px;
     margin-left: 3rem;
@@ -58,6 +58,7 @@ h2{
 }
 
 form{
+    margin-top: 4rem;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -65,11 +66,59 @@ form{
 
 .box{
     background-color: #E2E2E2;
-    border-radius: 5%;
-    width: 600px;
-    height: 750px;
-    justify-content: center;
-    display: flex;
+    border-radius: 2%;
+    width: 38rem;
+    height: 42rem;
+    display: inline-block;
     align-items: center;
     text-align: center;
+}
+
+.box h2{
+    padding-top: 3.5rem;
+    font-size: 2.8rem;
+}
+
+.box span{
+    font-size: 1.3rem;
+    padding-top: 3.5rem;
+    padding-left: 8rem;
+    display: flex;
+    padding-bottom: 0px;
+}
+
+#ramal{
+    border: none;
+    border-radius: 2%;
+    padding: 2%;
+    height: 40px;
+    width: 350px;
+    text-decoration: none;
+    background-color: #C4C4C4;
+}
+
+#local{
+    border: none;
+    border-radius: 2%;
+    padding: 2%;
+    height: 40px;
+    width: 350px;
+    text-decoration: none;
+    background-color: #C4C4C4;
+}
+
+#botao{
+    border: none;
+    border-radius: 8px;
+    padding: 2%;
+    margin-top: 4rem;
+    transition-duration: 0.4s;
+    background-color: #fbb34d;
+    color: black;
+}
+
+#botao:hover{
+    border-radius: 8px;
+    background-color: #61432E;
+    color: #F4AD00; 
 }

@@ -1,18 +1,66 @@
+*{
+    text-decoration: none;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html{
+    font-size: 62,5%;
+  }
+/*-------Começo do Header---------*/
+.img{
+    border-right: 3px solid black;
+    margin: 1.2rem;
+    display: inline-block;
+}
+
+.texto{
+    padding: 1rem;
+    font-size: 2.4rem;
+    display: inline-block;
+}
+/*-------Final do Header---------*/
+#menu{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: #6a5345;
+    padding-left: 3rem;
+    border-bottom: 0.6rem solid #fbb34d;
+}
+/*------Começo do Menu--------*/
+nav ul li{
+    padding: 10px 25px 10px 0px;
+}
+
+#menu a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+
+nav ul li:hover{
+    text-shadow: 0 0 10px white;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: white;
+}
+/*------Final do Menu--------*/
+.sgr{
+    padding-top: 1.5rem;
+    width: 100px;
+    margin-left: 3rem;
+    border-bottom: 0.4rem solid #fbb34d;
+}
+
 section {
     text-align: center;
-}
-
-section h2 {
-    font-size: 30pt;
-    text-align: left;
-    padding-left: 50pt;
-    padding-top: 30pt;
-    padding-bottom: 10pt;
-}
-
-section h2 div span{
-    border-bottom: 10px solid orange;
-    padding-bottom: 5px;
 }
 
 section table {
