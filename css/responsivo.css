@@ -50,7 +50,12 @@
         width: 300px;  
     }
 
-    footer{
-        font-size: 0.2rem;
+    footer ul#infos i{
+        font-size: 0.8rem;
+    }
+
+    footer ul#infos li{
+        width: 350px;
+        font-size: 0.9rem;
     }
 }

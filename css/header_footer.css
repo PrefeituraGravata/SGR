@@ -4,61 +4,13 @@
     font-family: Roboto;
 }
 
-/*Esse é o header
-header {
-    display: flex;
-}
-
-header img{
-    display: flex;
-    border-right: 3px solid black;
-    padding: 20px 0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-
-nav ul {
-    list-style: none;
-    border-bottom: 10px solid #fbb34d;
-    display: flex;
-    flex-direction: row;
-    background-color: #6a5345;
-    color: white;
-    justify-content: flex-start;
-    height: 40px;
-}
-
-nav ul li {
-    padding: 10px 25px 10px 0px;
-    transition: text-shadow 0s;
-}
-
-nav ul li:hover{
-    text-shadow: 0 0 10px white;
-}
-
-nav a{
-    font-size: 1.2rem;
-    color: white;
-}
-
-nav a:hover{
-    text-decoration: none;
-    color: white;
-}
-
-*/
-/*------------------------------------------------------*/
-
-/*Esse é o footer*/
 
 footer{
     border-top: 5px solid #fbb34d;
     margin-top: 10px;
 }
 
-footer ul#infos{
+#infos{
     padding: 30px;
     margin-bottom: 0;
     list-style: none;
@@ -67,8 +19,6 @@ footer ul#infos{
     display: grid;
     justify-items: start;
     align-items: center;
-    grid-template-columns: 1fr 23fr 30fr;
-    grid-template-rows: 1fr 1fr 1fr;
 }
 
 footer ul#infos i {
