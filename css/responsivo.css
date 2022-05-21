@@ -1,4 +1,4 @@
-@media (max-width: 380px){
+@media (max-width: 425px){
     .img{
         display: block;
         border: none;
@@ -51,11 +51,42 @@
     }
 
     footer ul#infos i{
+        display: inline-block;
         font-size: 0.8rem;
     }
 
     footer ul#infos li{
-        width: 350px;
-        font-size: 0.9rem;
+        display: inline-block;
+        width: 400px;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 1200px){
+    .img{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        border: none;
+    }
+
+    .img img{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 13rem;
+    }
+
+    .texto{
+        display: block;
+    }
+
+    .texto p{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.1rem;
     }
 }

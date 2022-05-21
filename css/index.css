@@ -76,35 +76,12 @@ section table tr {
     align-items: center;
 }
 
-section table tr#title_table{
+section table tr.table{
     color: black;
-    background-color: gray;
-    font-weight: bold;
+    background-color: #C4C4C4;
 }
 
 section table tr td{
     background-color: none;
 }
 
-@media (max-width:672px){
-    section h2 div span{
-        border:none;
-    }
-
-    section h2 div{
-        border-bottom: 10px solid orange;
-    }
-
-    section h2{
-        padding: 15px 10px;
-    }
-
-    section table tr{
-        grid-template-columns: 1fr 3fr;
-        height: 100%;
-    }
-
-    section table tr td {
-        font-size: 20pt;
-    }
-}
