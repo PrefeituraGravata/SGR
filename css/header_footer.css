@@ -11,41 +11,25 @@ footer{
 }
 
 #infos{
-    padding: 30px;
+    padding: 1.4rem;
     margin-bottom: 0;
     list-style: none;
     background-color: #6a5345;
     color: white;
-    display: grid;
-    justify-items: start;
     align-items: center;
 }
 
-footer ul#infos i {
-    grid-column-start: 1;
-    grid-column-end: 2;
+
+#infos i{
+    padding: 0.6rem;
+    display: inline-block;
 }
 
-footer ul#infos li#l1{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+#infos li{
+    display: inline-block;
 }
 
-footer ul#infos li#l2{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
 
-footer ul#infos li#l3{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
 
 /*-----------------------------------------*/
 
