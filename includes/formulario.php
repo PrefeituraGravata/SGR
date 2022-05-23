@@ -5,7 +5,7 @@
 
   <div class="form-group">
     <label>Número</label>
-    <input type="text" class="form-control" name="num_ramal" value="<?=$obRamal->num_ramal?>">
+    <input type="text" class="form-control" name="num_ramal" pattern="[0-9]+$" value="<?=$obRamal->num_ramal?>">
   </div>
 
   <div class="form-group">
