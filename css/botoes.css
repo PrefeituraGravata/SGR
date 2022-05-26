@@ -1,0 +1,42 @@
+*{
+    text-decoration: none;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .botoes{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+  }
+  
+  .botoes button{
+    transition-duration: 0.4s;
+    border: 3px solid  #735A4B;;
+    border-radius: 8px;
+    margin: 0.3rem;
+    color: white;
+    text-decoration: none;
+    background-color:  #735A4B;
+    width: 300px;
+    height: 150px;
+  }
+  
+  button:hover {
+    border: 3px solid #61432E;
+    border-radius: 8px;
+    background-color: #61432E;
+    color: #F4AD00;
+  }
+  
+  .botoes a{
+    font-size: 1.5rem;
+  }
+  
+  .botoes i{
+    font-size: 2.0rem;
+  }
+  

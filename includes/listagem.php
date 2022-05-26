@@ -18,6 +18,15 @@
     $resultados .= '<tr>
                       <td>'.$ramal->num_ramal.'</td>
                       <td>'.$ramal->loc_ramal.'</td>
+                      <td><a href="./editar.php?id='.$ramal->id.'">
+                          <button type="button" class="btn btn-primary">Editar</button>
+                          </a>
+                          <a href="./excluir.php?id='.$ramal->id.'">
+                          <button type="button" class="btn btn-danger ">Excluir</button>
+                          </a>
+                      </td>
+                      <td>
+                      </td>
                     </tr>';
   }
 
@@ -34,18 +43,13 @@
   <?=$mensagem?>
 
   <section>
-    <a href="cadastrar.php">
-      <button class="botoes">Cadastrar Ramal</button>
-    </a>
-  </section>
-
-  <section>
 
     <table class="table">
         <thead>
           <tr>
             <th>Número</th>
             <th>Localização</th>
+            <th>Ações</th>
           </tr>
         </thead>
         <tbody>
